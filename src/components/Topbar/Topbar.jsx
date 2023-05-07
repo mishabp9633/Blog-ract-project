@@ -13,6 +13,7 @@ const Topbar = () => {
       <AiFillInstagram className='topicon'/>
       <BsWhatsapp className='topicon'/>
       </div>
+
       <div className='topcenter'>
         <ul className='toplist'>
             <li className='toplistitems'>HOME</li>
@@ -22,6 +23,7 @@ const Topbar = () => {
             <li className='toplistitems'>LOGOUT</li>
         </ul>
       </div>
+      
       <div className='topright'>
         <img className='topimg' src={profile} alt="" />
         <BsSearch className='topsearchicon'/>
